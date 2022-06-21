@@ -4,7 +4,7 @@
 
 <br>
 
-<h2>Auto generated photo gallery</h2>
+<h2>Auto generated art gallery</h2>
 <p>Every image added to the uploads folder automatically gets added to the webpage using the power of ExpressJS, Pug and the Node.js Fs.</p>
 
 <h2>Running it locally</h2>
@@ -26,8 +26,14 @@ npm install
 node index.js
 ```
 
-<h1>Hosting</h1>
+<h2>Hosting</h2>
 <p>Hosting is a major concern with a nodejs app. This app is super simple and can be hosted for free on serverless platforms. I use <a href="https://koyeb.com">Koyeb</a> to host it on a serverless environment.</p>
+
+<br>
+
+<h2>Credits</h2>
+<li><a href="https://arjunphp.com/node-js-auto-generate-photo-gallery-directory/">This article</a> explaining the exact method and giving code for the image gallery.</li>
+<li><a href="https://fireship.io/lessons/three-responsive-css-grid-layouts/">This fireship.io video</a> explaining the CSS grid setup.</li>
 
 ---
 
