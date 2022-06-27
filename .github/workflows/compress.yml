@@ -1,0 +1,16 @@
+name: compress
+on: [push]
+jobs:
+  check-bats-version:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+      - run: npm install
+      - run: npm run compress
+      - run: git add .
+      - run: git config --global user.name "Test"
+      - run: git commit -m "Automated workflow - Compressed images" --no-verify
+      - run: git push
