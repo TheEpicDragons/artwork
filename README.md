@@ -5,7 +5,9 @@
 <br>
 
 <h2>Auto generated art gallery</h2>
-<p>Every image added to the uploads folder automatically gets added to the webpage using the power of ExpressJS, Pug and the Node.js Fs.</p>
+<p>Every image added to the uploads folder automatically gets added to the webpage using the power of ExpressJS, Pug and the Node.js Fs.
+
+Recently, auto-compression has been introduced. Every image is now compressed before the app is deployed. This helps both the visitors and the koyeb infrastructure.</p>
 
 <h2>Running it locally</h2>
 

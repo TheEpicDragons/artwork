@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node compress.js && node index.js",
+    "compress": "node compress.js"
   },
   "repository": {
     "type": "git",
@@ -17,8 +19,15 @@
     "url": "https://github.com/TheEpicDragons/artwork/issues"
   },
   "homepage": "https://github.com/TheEpicDragons/artwork#readme",
+  "type": "module",
   "dependencies": {
+    "axios": "^0.27.2",
+    "compressorjs": "^1.1.1",
     "express": "^4.18.1",
-    "pug": "^3.0.2"
+    "imagemin": "^8.0.1",
+    "imagemin-jpegtran": "^7.0.0",
+    "imagemin-pngquant": "^9.0.2",
+    "pug": "^3.0.2",
+    "request": "^2.88.2"
   }
 }
