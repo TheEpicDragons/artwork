@@ -36,6 +36,7 @@ npm start
 <h2>Credits</h2>
 <li><a href="https://arjunphp.com/node-js-auto-generate-photo-gallery-directory/">This article</a> explaining the exact method and giving code for the image gallery.</li>
 <li><a href="https://fireship.io/lessons/three-responsive-css-grid-layouts/">This fireship.io video</a> explaining the CSS grid setup.</li>
+<li><a href="https://github.com/features/actions">GitHub actions</a> and their awesome documentation for making auto compression possible.</li>
 
 ---
 
