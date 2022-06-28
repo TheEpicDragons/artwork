@@ -25,7 +25,7 @@ npm install
 
 **3. Run the server:**
 ```sh
-node index.js
+npm start
 ```
 
 <h2>Hosting</h2>
