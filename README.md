@@ -1,4 +1,4 @@
-<img src="https://cdn.discordapp.com/attachments/814809703963557889/988441142670540840/1111111111111111111111111111111.png" align="center" />
+<img src="https://image.thum.io/get/width/2070/crop/800/noanimate/https://xilzrosdoesdrawing-cooldragons.koyeb.app/get-images" align="center" />
 <h1 align="center">Artworks</h1>
 <p align="center">The artwork page for https://d4rag0niz3d.tk/artworks made with pug and JavaScript</p>
 
