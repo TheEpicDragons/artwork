@@ -1,5 +1,8 @@
 name: compress
-on: [push]
+on:
+  push:
+    paths:
+      - 'uploads'
 jobs:
   compress:
     runs-on: ubuntu-latest
