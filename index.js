@@ -17,7 +17,7 @@ console.log("[🔌] Starting server...");
 
 app.set('view engine', 'pug');
 app.use('/static', express.static(path.join(__dirname, 'compressed')))
-
+app.use(express.static('public'))
 app.get('/get-images', (req, res) => {
     let images = getImagesFromDir(path.join(__dirname, 'compressed'));
      res.render('index', { title: 'Artwork', images: images })
